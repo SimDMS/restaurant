@@ -1,0 +1,106 @@
+body {
+  font-family: 'Sintony', sans-serif;
+  color:#5c6369;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+ul, li {
+  display:block;
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  padding: 22px 0;
+}
+
+.menu__item {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.menu__item a {
+  color:#2c465a;
+  text-transform: uppercase;
+}
+
+.main-header .row {
+  align-items: center;
+}
+
+.book {
+  background: #fea100 url(img/order.png) no-repeat 20px 50%;
+  font-size: 14px;
+  color:#fff;
+  font-weight: 700;
+  border-radius: 5px;
+  border:none;
+  text-transform: uppercase;
+  padding: 15px 15px 15px 55px;
+  display: block;
+  cursor: pointer;
+  width: 200px;
+  height: 47px;
+}
+
+.offer {
+  background: url('img/first-bg.jpg') no-repeat center top;
+}
+
+.title {
+  padding: 220px 0 200px;
+}
+
+.title__heading {
+  font-size: 56px;
+  color:#fff;
+}
+
+.title__desc {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 40px;
+  color:#fff;
+  margin-top: -10px;
+}
+
+.title__desc span {
+  color:#fea100;
+}
+
+.call {
+  padding: 33px 0;
+  color:#14141d;
+  background:#edf1f3;
+  align-items: center;
+
+}
+.delivery__desc {
+  padding-left:20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.delivery__desc p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.delivery__desc p:last-child {
+  margin-top: -5px;
+  color:#fea100;
+  font-size: 16px;
+}
+
+.call .row {
+  align-items: center;
+}
+
+.number h1 {
+  font-size: 34px;
+  font-family: serif;
+}
